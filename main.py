@@ -51,7 +51,7 @@ def grey16():
     print('ok')
 
 
-def randomshake():
+def dither():
     print('ok')
 
 
@@ -62,7 +62,7 @@ but2 = tk.Button(window, text='4级灰度图', font='Helvetica -12 bold', width=
 but2.place(relx=0.77, rely=(25 + 93) / 400)
 but3 = tk.Button(window, text='16级灰度图', font='Helvetica -12 bold', width=11, height=1, command=grey16)
 but3.place(relx=0.77, rely=(25 + 93 * 2) / 400)
-but4 = tk.Button(window, text='随机抖动', font='Helvetica -12 bold', width=11, height=1, command=randomshake)
+but4 = tk.Button(window, text='随机抖动', font='Helvetica -12 bold', width=11, height=1, command=dither)
 but4.place(relx=0.77, rely=(25 + 93 * 3) / 400)
 img = tkinter.Label(window,
                     image=orgimg,
