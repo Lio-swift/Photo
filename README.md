@@ -1,4 +1,5 @@
 # Photo	图像转换小工具
+A gadget of photo converting
 
 课设周花了点时间写的小工具，以后可能会用到，主要是用来做一些简单的图像转换，图个方便。
 
@@ -7,9 +8,9 @@
 图像位置：会在本工具同目录下生成
 
  > <div align="center">
- > 	<img src="rmpicture/二值化.png" alt="示例" width="600" height="400" />
+ > 	<img src="picture/二值化.png" alt="示例" width="600" height="400" />
  >     <p>示例</p> 
- >     <div>
+ >     </div>
 
 二值化：根据给定阈值把图像变成只有纯黑（）和纯白（255）像素点的图像
 
